@@ -99,7 +99,6 @@ if ! check_command "electron"; then
     echo "Electron installed successfully"
 fi
 
-# Version will be extracted from nupkg filename after extraction
 PACKAGE_NAME="claude-desktop"
 ARCHITECTURE="amd64"
 MAINTAINER="Claude Desktop Linux Maintainers"
